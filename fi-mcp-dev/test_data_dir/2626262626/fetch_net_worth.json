@@ -1,0 +1,267 @@
+{
+  "netWorthResponse": {
+    "assetValues": [
+      {
+        "netWorthAttribute": "ASSET_TYPE_MUTUAL_FUND",
+        "value": {
+          "currencyCode": "INR",
+          "units": "2450000"
+        }
+      },
+      {
+        "netWorthAttribute": "ASSET_TYPE_EPF",
+        "value": {
+          "currencyCode": "INR",
+          "units": "850000"
+        }
+      },
+      {
+        "netWorthAttribute": "ASSET_TYPE_INDIAN_SECURITIES",
+        "value": {
+          "currencyCode": "INR",
+          "units": "3200000"
+        }
+      },
+      {
+        "netWorthAttribute": "ASSET_TYPE_SAVINGS_ACCOUNTS",
+        "value": {
+          "currencyCode": "INR",
+          "units": "1800000"
+        }
+      },
+      {
+        "netWorthAttribute": "ASSET_TYPE_US_SECURITIES",
+        "value": {
+          "currencyCode": "INR",
+          "units": "4500000"
+        }
+      },
+      {
+        "netWorthAttribute": "LIABILITY_TYPE_HOME_LOAN",
+        "value": {
+          "currencyCode": "INR",
+          "units": "-8500000"
+        }
+      },
+      {
+        "netWorthAttribute": "LIABILITY_TYPE_BUSINESS_LOAN",
+        "value": {
+          "currencyCode": "INR",
+          "units": "-2500000"
+        }
+      }
+    ],
+    "totalNetWorthValue": {
+      "currencyCode": "INR",
+      "units": "10450000"
+    }
+  },
+  "mfSchemeAnalytics": {
+    "schemeAnalytics": [
+      {
+        "schemeDetail": {
+          "amc": "AXIS_MUTUAL_FUND",
+          "nameData": {
+            "longName": "Axis Bluechip Fund - Direct Growth"
+          },
+          "planType": "DIRECT",
+          "investmentType": "OPEN",
+          "optionType": "GROWTH",
+          "nav": {
+            "currencyCode": "INR",
+            "units": "45",
+            "nanos": 500000000
+          },
+          "assetClass": "EQUITY",
+          "isinNumber": "INF846K01MM9",
+          "categoryName": "LARGE_CAP_FUND",
+          "fundhouseDefinedRiskLevel": "VERY_HIGH_RISK"
+        },
+        "enrichedAnalytics": {
+          "analytics": {
+            "schemeDetails": {
+              "currentValue": {
+                "currencyCode": "INR",
+                "units": "1250000"
+              },
+              "investedValue": {
+                "currencyCode": "INR",
+                "units": "800000"
+              },
+              "XIRR": 18.5,
+              "absoluteReturns": {
+                "currencyCode": "INR",
+                "units": "450000"
+              },
+              "unrealisedReturns": {
+                "currencyCode": "INR",
+                "units": "450000"
+              },
+              "navValue": {
+                "currencyCode": "INR",
+                "units": "45",
+                "nanos": 500000000
+              },
+              "units": 27777.78
+            }
+          }
+        }
+      },
+      {
+        "schemeDetail": {
+          "amc": "MIRAE_ASSET",
+          "nameData": {
+            "longName": "Mirae Asset Emerging Bluechip Fund - Direct Growth"
+          },
+          "planType": "DIRECT",
+          "investmentType": "OPEN",
+          "optionType": "GROWTH",
+          "nav": {
+            "currencyCode": "INR",
+            "units": "120",
+            "nanos": 0
+          },
+          "assetClass": "EQUITY",
+          "isinNumber": "INF769K01MM9",
+          "categoryName": "MID_CAP_FUND",
+          "fundhouseDefinedRiskLevel": "VERY_HIGH_RISK"
+        },
+        "enrichedAnalytics": {
+          "analytics": {
+            "schemeDetails": {
+              "currentValue": {
+                "currencyCode": "INR",
+                "units": "1200000"
+              },
+              "investedValue": {
+                "currencyCode": "INR",
+                "units": "900000"
+              },
+              "XIRR": 15.2,
+              "absoluteReturns": {
+                "currencyCode": "INR",
+                "units": "300000"
+              },
+              "unrealisedReturns": {
+                "currencyCode": "INR",
+                "units": "300000"
+              },
+              "navValue": {
+                "currencyCode": "INR",
+                "units": "120",
+                "nanos": 0
+              },
+              "units": 10000
+            }
+          }
+        }
+      }
+    ]
+  },
+  "accountDetailsBulkResponse": {
+    "accountDetailsMap": {
+      "tech-founder-mf-1": {
+        "accountDetails": {
+          "fipId": "fip@cams",
+          "maskedAccountNumber": "XXXXXX9999",
+          "accInstrumentType": "ACC_INSTRUMENT_TYPE_MUTUAL_FUNDS",
+          "accountType": {
+            "mutualFundAccountType": "MUTUAL_FUND_ACCOUNT_TYPE_FOLIO"
+          },
+          "fipMeta": {
+            "name": "CAMS",
+            "displayName": "CAMS"
+          }
+        },
+        "mutualFundSummary": {
+          "accountId": "tech-founder-mf-1",
+          "currentValue": {
+            "currencyCode": "INR",
+            "units": "1250000"
+          },
+          "holdingsInfo": [
+            {
+              "isin": "INF846K01MM9",
+              "folioNumber": "TECHFOUNDER001"
+            }
+          ]
+        }
+      },
+      "tech-founder-mf-2": {
+        "accountDetails": {
+          "fipId": "fip@kfintech",
+          "maskedAccountNumber": "XXXXXX8888",
+          "accInstrumentType": "ACC_INSTRUMENT_TYPE_MUTUAL_FUNDS",
+          "accountType": {
+            "mutualFundAccountType": "MUTUAL_FUND_ACCOUNT_TYPE_FOLIO"
+          },
+          "fipMeta": {
+            "name": "KFintech",
+            "displayName": "KFintech"
+          }
+        },
+        "mutualFundSummary": {
+          "accountId": "tech-founder-mf-2",
+          "currentValue": {
+            "currencyCode": "INR",
+            "units": "1200000"
+          },
+          "holdingsInfo": [
+            {
+              "isin": "INF769K01MM9",
+              "folioNumber": "TECHFOUNDER002"
+            }
+          ]
+        }
+      },
+      "tech-founder-epf": {
+        "accountDetails": {
+          "fipId": "fip@epfo",
+          "maskedAccountNumber": "MHBAN-XXXX-XXXX",
+          "accInstrumentType": "ACC_INSTRUMENT_TYPE_EPF",
+          "accountType": {
+            "epfAccountType": "EPF_ACCOUNT_TYPE_DEFAULT_TYPE"
+          },
+          "fipMeta": {
+            "name": "EPFO",
+            "displayName": "EPFO"
+          }
+        },
+        "epfSummary": {
+          "accountId": "tech-founder-epf",
+          "currentBalance": {
+            "currencyCode": "INR",
+            "units": "850000"
+          },
+          "balanceDate": "2024-05-21T12:00:00Z"
+        }
+      },
+      "tech-founder-bank": {
+        "accountDetails": {
+          "fipId": "HDFC-FIP",
+          "maskedAccountNumber": "XXXXXX7777",
+          "accInstrumentType": "ACC_INSTRUMENT_TYPE_DEPOSIT",
+          "ifscCode": "HDFC0000060",
+          "accountType": {
+            "depositAccountType": "DEPOSIT_ACCOUNT_TYPE_SAVINGS"
+          },
+          "fipMeta": {
+            "name": "HDFC Bank",
+            "displayName": "HDFC",
+            "bank": "HDFC"
+          }
+        },
+        "depositSummary": {
+          "accountId": "tech-founder-bank",
+          "currentBalance": {
+            "currencyCode": "INR",
+            "units": "1800000"
+          },
+          "balanceDate": "2024-06-15T10:00:00Z",
+          "depositAccountType": "DEPOSIT_ACCOUNT_TYPE_SAVINGS",
+          "depositAccountStatus": "DEPOSIT_ACCOUNT_STATUS_ACTIVE"
+        }
+      }
+    }
+  }
+} 

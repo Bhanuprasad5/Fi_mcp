@@ -1,0 +1,79 @@
+{
+  "schemaDescription": "Financial planning configuration parameters for retirement corpus calculation and investment allocation. Each parameter includes value, description, and constraints for building a comprehensive retirement planning model.",
+  "planningParameters":{
+    "inflationRate": {
+      "value": 6.5,
+      "unit": "%",
+      "description": "Expected annual inflation rate for adjusting future expenses and corpus requirements",
+      "range": "4-8%",
+      "source": "Historical Indian inflation data"
+    },
+    "retirementCorpus": {
+      "value": 500,
+      "unit": "lacs",
+      "description": "Target retirement corpus required at the end of planning period",
+      "currency": "INR",
+      "adjustedForInflation": true
+    },
+    "debtFundYield": {
+      "value": 7.2,
+      "unit": "%",
+      "description": "Expected annual return from debt mutual funds",
+      "range": "6-9%",
+      "riskLevel": "Low"
+    },
+    "passiveMutualFundYield": {
+      "value": 12.0,
+      "unit": "%",
+      "description": "Expected annual return from passive mutual funds (index funds/ETFs)",
+      "range": "10-15%",
+      "riskLevel": "Moderate",
+      "category": "Equity"
+    },
+    "hybridMutualFundYield": {
+      "value": 9.5,
+      "unit": "%",
+      "description": "Expected annual return from hybrid mutual funds (balanced funds)",
+      "range": "8-12%",
+      "riskLevel": "Moderate",
+      "category": "Balanced"
+    },
+    "planningHorizon": {
+      "value": 25,
+      "unit": "years",
+      "description": "Total duration of the financial planning period until retirement",
+      "range": "10-40 years",
+      "startYear": 2025
+    },
+    "investmentAllocation": {
+      "passiveMutualFunds": {
+        "percentage": 60,
+        "unit": "%",
+        "description": "Percentage of total investment allocated to passive mutual funds",
+        "category": "Equity"
+      },
+      "hybridMutualFunds": {
+        "percentage": 40,
+        "unit": "%",
+        "description": "Percentage of total investment allocated to hybrid mutual funds",
+        "category": "Balanced"
+      },
+      "totalAllocation": 100,
+      "rebalancingFrequency": "Annual"
+    },
+    "annualExpenses": {
+      "currentYear": {
+        "value": 12,
+        "unit": "lacs",
+        "description": "Current annual expenses in the base year",
+        "currency": "INR",
+        "year": 2025
+      },
+      "growthRate": {
+        "value": 6.5,
+        "unit": "%",
+        "description": "Annual growth rate of expenses (typically equals inflation rate)"
+      }
+    }
+  }
+}
